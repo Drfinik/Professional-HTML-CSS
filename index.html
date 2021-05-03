@@ -12,32 +12,58 @@
 
 <body>
     <header class="header">
-        <nav class="container">
-            <ul class="nav">
-                <li><a href="#"><img class="nav_Logo" src="image/Logo.svg" alt="Logo"></a></li>
-                <li><a href="#"><img class="nav_search" src="image/search.svg" alt="search"></a></li>
-                <li><a href="#"><img class="nav_menu" src="image/menu.svg" alt="menu"></a></li>
-                <li><a href="#"><img class="nav_contacts" src="image/contacts.svg" alt="contacts"></a>
-                </li>
-                <li><a href="#"><img class="nav_cart" src="image/cart.svg" alt="cart"></a></li>
-            </ul>
-        </nav>
+        <div class="left">
+            <div class="logo"><a href="#"><img src="image/Logo.svg" alt="Logo"></a></div>
+            <div class="search"><a href="#"><img src="image/search.svg" alt="search"></a></div>
+        </div>
+        <div class="right">
+            <div class="menu"><a href="#"><img src="image/menu.svg" alt="menu"></a></div>
+            <div class="contacts"><a href="#"><img src="image/contacts.svg" alt="contacts"></a></div>
+            <div class="cart"><a href="#"><img src="image/cart.svg" alt="cart"></a></div>
+        </div>
     </header>
-    <div class="container start">
-        <img class="start_man" src="image/Layer_57-removebg-preview 1.png" alt="photo">
-        <img class="start_pillar" src="image/pillar.svg" alt="photo">
-        <img class="start_billboard" src="image/billboard.svg" alt="photo">
-    </div>
-    <main class="container main">
+    <main class="main">
+        <div class="start">
+            <div class="start_man"><img src="image/Start__foto.png" alt="photo"></div>
+            <div class="slogan">
+                <h1 class="slogan__first">THE BRAND</h1>
+                <h2 class="slogan__second">OF LUXERIOUS <span style="color:#f16d7f;">FASHION</span></h2>
+            </div>
+        </div>
         <nav class="nav__info">
-            <div class="nav__women"><img src="image/for women.png" alt="for__women"></div>
-            <div class="nav__men"><img src="image/for men.png" alt="for__men"></div>
-            <div class="nav__kids"><img src="image/for kids.png" alt="for__kids"></div>
-            <div class="nav__accesories"><img src="image/accesories.png" alt="accesories"></div>
+            <div class="top__info">
+                <div class="nav__women">
+                    <a href="#" style="text-decoration: none;">
+                        <p class="text__info">30% OFF</p>
+                        <h2 class="heiding__info">FOR WOMEN</h2>
+                    </a>
+                </div>
+                <div class="nav__men">
+                    <a href="#" style="text-decoration: none;">
+                        <p class="text__info">HOT DEAL
+                        </p>
+                        <h2 class="heiding__info">FOR MEN</h2>
+                    </a>
+                </div>
+                <div class="nav__kids">
+                    <a href="#" style="text-decoration: none;">
+                        <p class="text__info">NEW ARRIVALS
+                        </p>
+                        <h2 class="heiding__info">FOR KIDS</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="nav__accesories">
+                <a href="#" style="text-decoration: none;">
+                    <p class="text__info" style="padding-top: 65px;">LUXIROUS & TRENDY
+                    </p>
+                    <h2 class="heiding__info">ACCESORIES</h2>
+                </a>
+            </div>
         </nav>
-        <h1 class="heiding__card__box">Fetured Items</h1><br>
+        <h2 class="heiding__card__box">Fetured Items</h2><br>
         <p class="card__box__description">Shop for items based on what we featured in this week</p><br>
-        <section class="container card__box">
+        <section class="card__box">
             <div class="section__card"><img class="image__card1" src="image/card1.png" alt="card1">
                 <h3 class="heiding__card">ELLERY X M'O CAPSULE</h3>
                 <p class="card__description">Known for her sculptural takes on traditional tailoring, Australian arbiter
@@ -81,10 +107,8 @@
                 <p class="card__price">$52.00</p>
             </div>
         </section>
-        <form class="container form__browse__submit" action="#"><input class="browse__submit" type="submit"
-                value="Browse All Product"></form>
-
-        <section class="container feature">
+        <div class="a__browse"> <a class="browse__text" href="#">Browse All Product</a></div>
+        <section class="feature">
             <div class="feature__info"><img src="image/auto.svg" alt="auto">
                 <h3 class="heading__feature">Free Delivery</h3>
                 <p class="text__feature">Worldwide delivery on all. Authorit tively morph next-generation innov tion
@@ -104,7 +128,7 @@
                 </p>
             </div>
         </section>
-        <section class="container subscribe center">
+        <section class="subscribe center">
             <div class="subscribe__info">
                 <img class="subscribe__image" src="image/subscribe__image.png" alt="subscribe__image">
                 <div class="text__subscribe">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
@@ -121,7 +145,7 @@
             </div>
         </section>
     </main>
-    <div class="container footer">
+    <div class="footer">
         <div class="footer_info">
             <div class="footer__text">© 2021 Brand All Rights Reserved.</div>
         </div>
