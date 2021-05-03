@@ -250,3 +250,66 @@
 .footer__padding__right {
   padding-right: 7px;
 }
+.start__catalog {
+  height: 148px;
+  background: #f8f3f4;
+  display: flex;
+}
+.heiding__catalog {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f16d7f;
+  padding: 59px 737px 60px 230px;
+}
+.catalog__menu__mini {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
+  padding: 65px 230px 66px 0;
+}
+.mini__heiding__catalog {
+  color: #f16d7f;
+}
+.filter__menu {
+  display: flex;
+}
+.filter__menu__filter {
+  padding: 51px 304px 65px 246px;
+}
+.filter__menu__trending__now {
+  padding: 51px 28px 65px 0;
+}
+.filter__menu__size {
+  padding: 51px 28px 65px 0;
+}
+.filter__menu__price {
+  padding: 51px 684px 65px 0;
+}
+.pagination {
+  margin: 49px 0 96px 0;
+  display: inline-block;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  justify-content: center;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.pagination a:hover:not(.active) {
+  color: red;
+}
