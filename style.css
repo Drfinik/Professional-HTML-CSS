@@ -349,7 +349,10 @@
   height: 148px;
   background: #f8f3f4;
   display: flex;
+<<<<<<< HEAD
   justify-content: space-between;
+=======
+>>>>>>> master
 }
 .heiding__catalog {
   font-family: Lato;
@@ -358,8 +361,12 @@
   font-size: 24px;
   line-height: 29px;
   color: #f16d7f;
+<<<<<<< HEAD
   padding: 59px 0 60px 230px;
   margin: 0;
+=======
+  padding: 59px 737px 60px 230px;
+>>>>>>> master
 }
 .catalog__menu__mini {
   font-family: Lato;
@@ -369,13 +376,17 @@
   line-height: 17px;
   color: #636363;
   padding: 65px 230px 66px 0;
+<<<<<<< HEAD
   margin: 0;
+=======
+>>>>>>> master
 }
 .mini__heiding__catalog {
   color: #f16d7f;
 }
 .filter__menu {
   display: flex;
+<<<<<<< HEAD
   justify-content: space-between;
   padding: 51px 648px 64px 246px;
 }
@@ -389,6 +400,20 @@
 .pagination__center {
   display: flex;
   justify-content: center;
+=======
+}
+.filter__menu__filter {
+  padding: 51px 304px 65px 246px;
+}
+.filter__menu__trending__now {
+  padding: 51px 28px 65px 0;
+}
+.filter__menu__size {
+  padding: 51px 28px 65px 0;
+}
+.filter__menu__price {
+  padding: 51px 684px 65px 0;
+>>>>>>> master
 }
 .pagination {
   margin: 49px 0 96px 0;
@@ -398,6 +423,11 @@
   font-weight: 300;
   font-size: 16px;
   line-height: 19px;
+<<<<<<< HEAD
+=======
+  display: flex;
+  justify-content: center;
+>>>>>>> master
 }
 .pagination a {
   color: black;
@@ -406,9 +436,16 @@
   text-decoration: none;
   transition: background-color 0.3s;
 }
+<<<<<<< HEAD
 .pagination a:hover:not(.active) {
   color: red;
 }
 .form-select {
   border: none;
 }
+=======
+
+.pagination a:hover:not(.active) {
+  color: red;
+}
+>>>>>>> master
